@@ -1,0 +1,169 @@
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    background: black;
+  }
+
+p,
+a,
+label,
+legend,
+h1,
+h2,
+h3,
+h4,
+h5,
+hr,
+th,
+td,
+span,
+:placeholder-shown {
+    color:rgb(0, 0, 0);
+}
+
+a {
+    color:rgb(41, 41, 41);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+a:hover {
+    color: rgb(100, 100, 100);
+    text-shadow: 2px 2px 5px rgb(48, 48, 48);
+}
+
+.card hr {
+    width: 95%;
+    height: 2px;
+    background: rgb(100, 100, 100);
+    margin: 1rem auto;
+}
+
+.card {
+    background-color: rgb(100, 100, 100);
+    border-radius: 5px;
+    width: 90%;
+    height: 100%;
+    padding: 1rem;
+  }
+
+  .img {
+      padding-top: 1rem;
+  }
+  
+  img {
+    margin: 0 1rem;
+    border-radius: 5px;
+    height: 30vw;
+  }
+  
+  h3 {
+    margin: auto;
+  }
+  
+  h5 {
+    padding: 1rem 0 0 1rem;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btnLogout {
+    border: none;
+    margin-right: 1rem;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .btnLogout:hover {
+    color: blue;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px blueviolet;
+  }
+  
+  .imgLogin {
+    border-radius: 25px;
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+  }  
+  
+  .publicacoes {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .comentarios {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  
+  .avatar {
+    width: 100%;
+    max-width: 6rem;
+    height: 6rem;
+    border-radius: 5px;
+    min-width: 3rem;
+    min-height: 3rem;
+  }
+  
+  .comentario {
+    text-align: justify;
+    flex: 1;
+    border-radius: 5px;
+    width: 50vw;
+    height: 15vh;
+    overflow: hidden;
+    margin: 10px;
+  }
+  
+  .comentario::placeholder {
+    padding: 2rem 1rem;
+  }
+  
+  .btnPublicar {
+    background: white;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 3px;
+    color: black;
+  }
+  
+  .btnPublicar:hover {
+    border: solid 2px rgb(80, 214, 80);
+    color: black;
+  }
+  
+  .btnExcluir {
+    align-items: center;
+    width: 8rem;
+    height: 3.5rem;
+    border-radius: 5px;
+  }
+  
+  .btnExcluir:hover {
+    border: solid 2px rgb(250, 42, 42);
+    color:rgb(250, 42, 42);
+  }
+  

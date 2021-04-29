@@ -1,0 +1,117 @@
+html {
+    --bg: #FCFCFC;
+    --bg-input: #FCFCFC;
+    --bg-panel: #EBEBEB;
+    --bg-shadow: #000;
+    --color-headings: #3664FF;
+    --color-text: #333333;
+    --color-button: #6c757d;
+    --color-button-hover: #6c757d;
+    --color-border-success: #40ff8c;
+    --color-border-success-dark: #00ff66;
+    --color-border-clear: #ff4444;
+    --color-border-clear-dark: #ff0000;
+}
+
+body {
+    background-color: rgb(225, 225, 225);
+}
+
+.card {
+    background-color: rgb(225, 225, 225);
+}
+
+.card-input {
+    background-color: rgb(225, 225, 225);
+}
+
+.card-cadastro {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content {
+    background-color: rgb(225, 225, 225);
+}
+
+p,
+a,
+label,
+legend,
+h1,
+h4,
+h5,
+hr,
+th,
+td,
+:placeholder-shown {
+    color:  rgb(97, 92, 92);
+}
+
+hr {
+    background:  rgb(97, 92, 92);
+}
+
+a {
+    color:  rgb(97, 92, 92);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    display: grid;
+    text-align: center;
+}
+
+a:hover {
+    color:  rgb(97, 92, 92);
+    text-decoration: none;
+    text-shadow: 2px 2px 5px  rgb(97, 92, 92);
+}
+
+.row {
+    justify-content: space-around;
+}
+
+.btnVoltar {
+    background: rgb(225, 225, 225);
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 5px;
+    color:  rgb(97, 92, 92);
+}
+
+.btnVoltar:hover {
+    border: solid 2px red;
+    background: rgb(225, 225, 225);
+    color:  rgb(97, 92, 92);
+}
+
+.btnPublicar {
+    background: rgb(225, 225, 225);
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 5px;
+    color:  rgb(97, 92, 92);
+}
+
+.btnPublicar:hover {
+    border: solid 2px rgb(80, 214, 80);
+    background: rgb(225, 225, 225);
+    color: rgb(97, 92, 92);
+}
+
+.btnExcluir {
+    background: rgb(225, 225, 225);
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 5px;
+    color: rgb(97, 92, 92);
+}
+
+.btnExcluir:hover {
+    border: solid 2px rgb(250, 42, 42);
+    background: rgb(225, 225, 225);
+    color:  rgb(97, 92, 92);
+}
